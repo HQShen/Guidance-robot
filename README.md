@@ -6,3 +6,7 @@ It is hard for me to find the office location when I come into the CSE building 
 
 We develop a Guidance robot to help this issue. 
 
+## How to use launch our program?
+$ catkin_make
+roscore
+roslaunch 
