@@ -7,6 +7,9 @@ It is hard for me to find the office location when I come into the CSE building 
 We develop a Guidance robot to help this issue. 
 
 ## How to use launch our program?
-$ catkin_make
-roscore
-roslaunch 
+Download the files in the src file of your ROS workspace
+> catkin_make
+> roscore
+> roslaunch navigation find.launch
+> rosrun navigation map_navigation_node
+> rosrun new_project new_project
