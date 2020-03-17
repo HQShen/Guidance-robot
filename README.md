@@ -8,11 +8,11 @@ We develop a Guidance robot to help this issue.
 
 ## How to use launch our program?
 Download the files in the src file of your ROS workspace
-`catkin_make
+> catkin_make
 
-`roscore
+> roscore
 
-`roslaunch navigation find.launch
+>roslaunch navigation find.launch
 
 > rosrun navigation map_navigation_node
 
