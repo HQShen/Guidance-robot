@@ -12,7 +12,7 @@ Download the files in the src file of your ROS workspace
 
 > roscore
 
->roslaunch navigation find.launch
+> roslaunch navigation find.launch
 
 > rosrun navigation map_navigation_node
 
