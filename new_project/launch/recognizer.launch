@@ -1,0 +1,6 @@
+<launch>
+  <node name="recognizer" pkg="pocketsphinx" type="recognizer.py" output="screen">
+    <param name="lm" value="$(find new_project)/config/TAR9958/9958.lm"/>
+    <param name="dict" value="$(find new_project)/config/TAR9958/9958.dic"/>
+  </node>
+</launch>

@@ -1,0 +1,91 @@
+Language model created by QuickLM on Sun Mar 15 22:51:40 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 21 words
+
+\data\
+ngram 1=21
+ngram 2=26
+ngram 3=21
+
+\1-grams:
+-1.0669 </s> -0.3010
+-1.0669 <s> -0.2621
+-1.5441 AH -0.2820
+-1.8451 EH -0.2948
+-1.8451 HH -0.2884
+-1.8451 IY -0.2621
+-1.3680 N -0.2553
+-1.8451 NO -0.2820
+-1.8451 ONE -0.2884
+-1.8451 ONE(2) -0.2948
+-1.8451 OW -0.2621
+-1.8451 R -0.2948
+-1.8451 S -0.2621
+-1.8451 T -0.2948
+-1.8451 TH -0.2948
+-1.8451 THREE -0.2948
+-1.8451 TWO -0.2948
+-1.8451 UW -0.2621
+-1.5441 W -0.2884
+-1.8451 Y -0.2948
+-1.8451 YES -0.2948
+
+\2-grams:
+-1.0792 <s> NO 0.0000
+-1.0792 <s> ONE 0.0000
+-1.0792 <s> ONE(2) 0.0000
+-1.0792 <s> THREE 0.0000
+-1.0792 <s> TWO 0.0000
+-1.0792 <s> YES 0.0000
+-0.3010 AH N -0.1249
+-0.3010 EH S 0.0000
+-0.3010 HH W 0.0000
+-0.3010 IY </s> -0.3010
+-0.4771 N </s> -0.3010
+-0.7782 N OW 0.0000
+-0.3010 NO N -0.2218
+-0.3010 ONE W 0.0000
+-0.3010 ONE(2) HH 0.0000
+-0.3010 OW </s> -0.3010
+-0.3010 R IY 0.0000
+-0.3010 S </s> -0.3010
+-0.3010 T UW 0.0000
+-0.3010 TH R 0.0000
+-0.3010 THREE TH 0.0000
+-0.3010 TWO T 0.0000
+-0.3010 UW </s> -0.3010
+-0.3010 W AH 0.0000
+-0.3010 Y EH 0.0000
+-0.3010 YES Y 0.0000
+
+\3-grams:
+-0.3010 <s> NO N
+-0.3010 <s> ONE W
+-0.3010 <s> ONE(2) HH
+-0.3010 <s> THREE TH
+-0.3010 <s> TWO T
+-0.3010 <s> YES Y
+-0.3010 AH N </s>
+-0.3010 EH S </s>
+-0.3010 HH W AH
+-0.3010 N OW </s>
+-0.3010 NO N OW
+-0.3010 ONE W AH
+-0.3010 ONE(2) HH W
+-0.3010 R IY </s>
+-0.3010 T UW </s>
+-0.3010 TH R IY
+-0.3010 THREE TH R
+-0.3010 TWO T UW
+-0.3010 W AH N
+-0.3010 Y EH S
+-0.3010 YES Y EH
+
+\end\
