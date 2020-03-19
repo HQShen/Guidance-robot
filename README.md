@@ -19,5 +19,5 @@ Download the files in the src file of your ROS workspace
 
 > rosrun new_project new_project
 
-Here is the demo video:
-<video src="https://drive.google.com/file/d/1UxDBCt74IqYm0Li7-sQCmeivUYO-Q_eM/view?usp=sharing" controls="controls" width="500" height="300">
+## Demo video
+Here is the [demo video](https://drive.google.com/file/d/1UxDBCt74IqYm0Li7-sQCmeivUYO-Q_eM/view?usp=sharing)
