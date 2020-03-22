@@ -6,7 +6,11 @@ It is hard for me to find the office location when I come into the CSE building 
 
 We develop a Guidance robot to help this issue. 
 
+## packages in ROS to be used
+gmapping, amcl, 3dsensor, pocketsphinx, sound play，opencv
+
 ## How to launch our program?
+
 Download the files in the src file of your ROS workspace
 
 > catkin_make
